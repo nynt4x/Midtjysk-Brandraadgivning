@@ -1,0 +1,202 @@
+<html>
+    <head>
+        <title>Midtjysk Brandrådgivning</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+      <nav class="navbar navbar-expand-md fixed-top">
+        <a class="navbar-brand" href="#"><img src="images/logo.png" alt="Midtjysk Brandrådgivning"></a>
+        
+          <ul class="navbar-nav main-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#velkommen">Velkommen</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#om">Om os</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#ydelser">Ydelser</a>
+            </li>   
+            <li class="nav-item">
+              <a class="nav-link" href="#referencer">Referencer</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#kontakt">Kontakt</a>
+            </li> 
+          </ul>
+          <button class="mobile-nav-open" onclick="OpenNavigation()">
+            <img src="images/nav.png">
+          </button>
+          <div class="mobile-nav" id="mobile-nav">
+            <div class="mobile-wrap">
+              <button class="mobile-nav-close" onclick="CloseNavigation()">
+                <img src="images/close.png" alt="">
+              </button>
+              <ul class="nav-cont">
+                <li class="">
+                  <a  onclick="CloseNavigation()" class="nav-link" href="#velkommen">Velkommen</a>
+                </li>
+                <li class="">
+                  <a  onclick="CloseNavigation()" class="nav-link" href="#om">Om os</a>
+                </li>
+                <li class="">
+                  <a  onclick="CloseNavigation()" class="nav-link" href="#ydelser">Ydelser</a>
+                </li>   
+                <li class="">
+                  <a  onclick="CloseNavigation()" class="nav-link" href="#referencer">Referencer</a>
+                </li>
+                <li class="">
+                  <a  onclick="CloseNavigation()" class="nav-link" href="#kontakt">Kontakt</a>
+                </li> 
+              </ul>
+            </div>      
+          </div>
+       
+      </nav>
+        <div class="container-fluid velkommen" id="velkommen">
+              <div class="headline">
+                  <h1>Din Lokale Brandrådgiver</h1>
+              </div>
+        </div>
+        <div class="container-fluid om" id="om">
+          <div class="row">
+            <div class="col">
+              <h2 class="text-center fz-lg pb-5">Certificeret <span class="cl-red">Brandrådgivning</span></h2>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-xl-2 col-lg-3">
+              <img src="images/lars.png" alt="Lars A. Bækgaard Kombak, DBI CERTIFICERET BRANDRÅDGIVER" class="image-center profil">
+            </div>
+            <div class="col-xl-3 col-lg-4 text-lg-start text-center">
+              <h2 class="mt-xl-5">Lars A. Bækgaard Kombak</h2>
+              <h5><span class="cl-red">DBI Certificeret Brandrådgiver</span></h4>
+              <img src="images/certified.png" alt="CERTIFICERET BRANDRÅDGIVNING">
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid ydelser" id="ydelser">
+          <div class="bait">
+              <div>
+              <h1 class="fz-lg">Kom i hus med dit <span class="cl-red">Byggeprojekt.</span></h1>
+              </div>
+              
+              
+              
+              <div>
+              <h4>Brænder du inde med spørgsmål eller brænder projektet på?</h2>
+              <a href="#kontakt"><button>Kontakt os</button></a>
+              </div>
+          </div>
+        </div>
+        <div class="container-fluid referencer" id="referencer">
+          
+
+                <h1 class="text-center fz-lg"><span class="cl-red">Referencer</span></h1>
+                <p class="text-center mg-b5 fz-md">Skal dit vellykkede projekt være vores næste reference?</p>
+                <div class="row justify-content-center">
+                  <div class="col-md-8">
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img class="d-block w-100" src="images/Carousel/car1.jpg" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                          <img class="d-block w-100" src="images/Carousel/car2.jpg" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                          <img class="d-block w-100" src="images/Carousel/car3.jpg" alt="Third slide">
+                        </div>
+                      </div>
+                      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        
+                      </a>
+                      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        
+                      </a>
+                    </div>
+                  </div>
+                </div>     
+          
+        </div>
+      </div>
+        <div class="container-fluid kontakt" >
+          <div id="kontakt" style="padding-bottom:100px;"></div>
+          <div class="row justify-content-center" >
+            <div class="col-xl-4 col-lg-4 col-md-8">
+              <a href="https://goo.gl/maps/TMugAWpd1GWp6EjV9" target="_blank"><img class="maps" src="images/adresse.png" alt="Midtjysk Brandrådgivning Addresse: Tjelevej 34, 7400 Herning"></a>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-8 pt-5 pt-lg-0 pt-xl-0 sm-center-txt">
+              <h2 class="cl-red fz-lg">Kontakt Midtjysk Brandrådgivning</h2>
+              <ul class="kontakt-info" >
+                <li><a href="tel:+ 45 25 24 45 41"><img src="images/callmemaybe.png" alt="Midtjysk Brandrådgivning telefon nummer"> + 45 25 24 45 41</a></li>
+                <li><a href="mailto:LK@mjbrand.dk"><img src="images/mailmemaybe.png" alt="Midtjysk Brandrådgivning mail addresse"> LK@mjbrand.dk</a></li>
+                <li><a href="https://goo.gl/maps/TMugAWpd1GWp6EjV9" target="_blank"><img src="images/findmemaybe.png" alt="Midtjysk Brandrådgivning addresse"> Tjelevej 34, 7400 Herning</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-fluid footer">
+           <div class="footer-section" >
+            <div class="row justify-content-center">
+              <div class="col-8 pb-5 text-center">
+                <img src="images/logo.png" class="image-fluid" alt="Midtjysk Brandrådgivning, logo, brand">
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-md-2 col-sm-6 text-center">
+                <ul class="list-unstyled footer-links">
+                 <li>
+                   <a class="text-muted" href="#velkommen">Velkommen</a>
+                 </li>
+                 <li>
+                   <a class="text-muted" href="#om">Om os</a>
+                 </li>
+                 <li>
+                   <a class="text-muted" href="#ydelser">Ydelser</a>
+                 </li>   
+                 <li>
+                   <a class="text-muted" href="#referencer">Referencer</a>
+                 </li>
+                 <li>
+                   <a class="text-muted" href="#kontakt">Kontakt</a>
+                 </li> 
+                </ul>
+              </div>
+              <div class="col-md-2 col-sm-6 text-center">
+                <h5>Følg os</h5>
+                <div class="socials">
+                  <a href="#" target="_blank"><img src="images/facebook.png" alt=""></a>
+                  <a href="#" target="_blank"><img src="images/linkedin.png" alt=""></a>
+                </div>
+              </div>
+            </div>
+           </div>
+          </div>
+          <div class="copyright">
+            <div class="text-center text-muted">
+              <span>Copyright &copy; 2020-2021 MIDTJYSK BRANDRÅDGIVNING.</span>
+            </div>
+          </div>
+        <script>
+          function OpenNavigation() {
+            var element = document.getElementById("mobile-nav");
+            element.classList.add("open");
+          }
+          function CloseNavigation() {
+            var element = document.getElementById("mobile-nav");
+            element.classList.remove("open");
+          }
+        </script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
+</html>
