@@ -1,0 +1,395 @@
+* {
+    outline: none !important;
+}
+
+body {
+    background-color:black !important;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+/* NAVIGATION */ 
+.navbar {
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,0) 0%, rgba(0,0,0,1) 100%);
+    height: 140px;
+}
+
+.navbar-brand {
+    margin-right: 10vw !important;
+    margin-bottom:0;
+}
+
+
+.mobile-nav{
+    width:100%;
+    height:100vh;
+    position:fixed;
+    z-index:1;
+    top:0;
+    right:-100%;
+    background-color:#c62c2c;
+    transition:0.3s all ease;
+}
+
+.mobile-wrap{
+    display: flex;
+    flex-direction: column;
+}
+
+.mobile-nav-open{
+    border: 2px solid #ffffff1a;
+    background-color: transparent;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.mobile-nav-close > img {
+    float: right;
+    display:block;
+}
+
+.mobile-nav-close{
+    border: none;
+    background-color: transparent;
+    color: white;
+    border-radius: 8px;
+    padding: 30px 30px 0 0;
+}
+
+.mobile-nav-open > img{
+    width: 35px;
+}
+
+.open {
+    right:0 ;
+}
+
+.nav-cont {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    margin:0;
+    padding:0;
+}
+
+.nav-cont > li {
+    list-style:none;
+    font-size: 2.3rem;
+    width: 100%;
+    text-align: center;
+}
+
+.nav-cont > li > a {
+    color:white;
+}
+
+
+.navbar-nav {
+    margin-top:-40px;
+}
+
+.nav-item, .nav-item > a {
+    color:white;
+    opacity:1;
+    font-size:1.4wrem;
+}
+
+.nav-item {
+    height:100px;
+    margin-right:2vw;
+}
+
+.nav-item:hover, .nav-item > a:hover {
+    background-color:#c62c2c;
+    color:white;
+    transition:1s;
+    
+}
+
+.nav-link {
+    padding:2.5rem 1rem !important;
+}
+
+/* HOME SECTION  */
+.velkommen {
+    height:90vh;
+    background-image:url("images/bg1.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.headline, .headline > h1 {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    color: white;
+    font-size:5rem;
+    text-align: center;
+}
+
+/* ABOUT SECTION */
+.om {
+    height:auto;
+    color:rgb(63, 63, 63);
+    background-color:rgb(255, 255, 255);
+    padding:200px 0;
+    overflow:hidden;
+}
+
+.profil {
+    width:100%;
+    max-width:465px;
+}
+
+/* YDELSER SECTION */
+.ydelser {
+    height:auto;
+    color:rgb(63, 63, 63);
+    padding:200px 0;
+    overflow:hidden;
+    background-image:url("images/bg2o7.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.bait {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    color: white;
+    font-size:5rem;
+    text-align: center;
+    width:100%;
+}
+
+.bait > div {
+    width:50%;
+}
+
+.bait > div > a > button {
+    background-color:#c62c2c;
+    color:white;
+    border-radius:5px;
+    border:none;
+    font-size:1.8rem;
+    padding:10px 40px;
+    transition:0.3s;
+    margin-top:2vh;
+}
+
+.bait > div > a > button:hover {
+    background-color:white;
+    color:#c62c2c;
+    
+}
+
+.bait > div > h1 {
+    margin-bottom:20vh;
+}
+
+/* REFERENCER SECTION */
+.referencer {
+    height:auto;
+    color:rgb(63, 63, 63);
+    background-color:rgb(255, 255, 255);
+    padding:200px 0;
+    overflow:hidden;
+}
+
+
+.carousel-control-prev-icon {
+    padding:60px 30px;
+    
+    background-repeat:no-repeat;
+    background-position:center;
+    background-color:red;
+}
+
+.carousel-control-next-icon {
+    padding:60px 30px;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-color:red;
+}
+
+/* KONTAKT SECTION */
+.kontakt {
+    height:auto;
+    color:rgb(63, 63, 63);
+    background-color:rgb(255, 255, 255);
+    padding:50px 0;
+    overflow:hidden;
+    margin-top:-20px;
+}
+
+.kontakt-info {
+    margin:0;
+    padding:0;
+    list-style-type: none;
+}
+
+.kontakt-info > li {
+    padding:20px 0;
+}
+
+.kontakt-info > li > a {
+    font-size:1.5rem;
+    color:rgb(63, 63, 63);
+    text-decoration: none;
+}
+
+.kontakt-info > li > a:hover  {
+    color:#c62c2c;
+    text-decoration:underline;
+}
+
+.kontakt-info > li > a > img {
+    max-width:80px;
+    margin-right:20px;
+}
+
+
+.maps {
+    max-width:100%;
+    display:block;
+    margin: auto;
+}
+
+
+/* FOOTER SECTION */
+.footer {
+    height:auto;
+    color:white;
+    overflow:hidden;
+    background-color:rgb(51, 51, 51);
+    padding: 70px 0;
+}
+
+.footer-links > li > a{
+    text-decoration: none;
+}
+.socials > a > img{
+    max-width:70px;
+    padding: 5px;
+}
+
+.copyright{
+    background-color:rgb(34, 34, 34);
+    padding: 20px 0;
+    font-size: 12px;
+}
+
+
+
+/* RESPONSIVE CHANGES */
+@media (min-width: 768px){
+    .navbar-expand-md{
+        justify-content: space-between !important;
+    }
+    
+}
+
+@media (max-width:1100px) {
+    .main-nav {
+        display:none !important;
+    }
+    .navbar-expand-md {
+        padding: 0 20px;
+    }
+    
+    .headline > h1 {
+        font-size:3.5rem !important;
+    }
+    
+    .fz-lg {
+        font-size:2.5rem !important;
+    }
+    .mg-top-md {
+        margin-top:40px !important;
+    }
+
+    .mg-header-topbot {
+        margin-top: 10vh !important;
+    }
+    
+    .referencer {
+        height:70vh;
+    }
+    .bait > div {
+        width:70%;
+    }
+
+    .kontakt-info > li > a {
+        font-size:1.3rem !important; 
+    }
+
+    .kontakt-info > li > a > img {
+        max-width: 50px !important;
+    }
+    .sm-center-txt {
+        text-align:center !important;
+    }
+
+    .navbar-brand {
+        margin-right: 0 !important;
+    }
+
+
+}
+
+@media (min-width:1101px) {
+    .mobile-nav-open {
+        display:none !important;
+    }
+    .navbar-expand-md {
+        justify-content: center !important;
+    }
+
+    
+    
+}
+
+
+/* CUSTOM CSS */
+.cl-red {
+    color:#c62c2c;
+}
+
+.image-center {
+    display: block;
+    margin: auto;
+}
+
+.mg-header-topbot {
+    margin-top:20vh;
+    margin-bottom:5vh;
+}
+
+
+.mg-top-md {
+    margin-top:70px;
+}
+
+.mg-b5 {
+    margin-bottom:5vh;
+}
+
+.fz-lg {
+    font-size:4rem;
+}
+
+.fz-md {
+    font-size:2rem;
+}
+
