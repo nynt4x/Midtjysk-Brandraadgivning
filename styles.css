@@ -18,7 +18,7 @@ html {
 }
 
 .navbar-brand {
-    margin-right: 10vw !important;
+    margin-right: 10vw;
     margin-bottom:0;
 }
 
@@ -72,9 +72,10 @@ html {
     display:flex;
     flex-direction:column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     margin:0;
     padding:0;
+    height: 70vh;
 }
 
 .nav-cont > li {
@@ -309,7 +310,7 @@ html {
     }
     
     .headline > h1 {
-        font-size:3.5rem !important;
+        font-size:3rem !important;
     }
     
     .fz-lg {
@@ -342,7 +343,10 @@ html {
     }
 
     .navbar-brand {
-        margin-right: 0 !important;
+        margin-right: 0;
+    }
+    .navbar-brand > img{
+        max-width: 60vw;
     }
 
 
